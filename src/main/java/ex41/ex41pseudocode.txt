@@ -1,0 +1,19 @@
+Class NameSorter
+
+    Main method
+        Make Arraylist to store list of names
+        Make file input
+        Fill Arraylist by calling function that scans input file
+        Sort names in list
+        Call function to write the Arraylist to output file
+
+    Scan File method
+        Make Arraylist to store file content
+        While file has a next line
+            Add line of the file into the Arraylist
+        Return Arraylist
+
+    Write File method
+        Print table set up to file
+        For length of arraylist
+            Print each name to file

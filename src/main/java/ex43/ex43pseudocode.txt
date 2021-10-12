@@ -1,0 +1,26 @@
+Class WebsiteGenerator
+
+    Main method
+        Ask for all user inputs and store in string variables
+        Call function to make all files using user input
+
+    Making All Files method
+        Make strings for file directories
+        Create directory for website
+        Create directory for site with input site name
+        Print out directory was created
+        Call function to make index.html file
+        Call function to fill index.html file
+        If javascript folder wanted and user input is 'y'
+            Create directory for javascript folder
+            Print out directory was created
+        If css folder wanted and user input is 'y'
+            Create directory for css folder
+            Print out directory was created
+
+    Making Single File method
+        Creates new file with passed in directory
+        Print out file was created
+
+    Making HTML file method
+        Prints into file html information using user input

@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class NameSorter
+{
+    + static void main( String[] args )
+    + static ArrayList<String> scanFile (File input)
+    + static void writeFile (ArrayList<String> list)
+}
+
+
+@enduml

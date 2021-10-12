@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class WebsiteGenerator
+{
+    + static void main( String[] args )
+    + static void makeAllFiles(String siteName, String author, String javaScript, String css)
+    + static void makeFile(String webDirecShort, String siteDirec, String inputDirec)
+    + static void makeHTML(String siteName, String author, String siteDirec, String indexDirec)
+}
+
+@enduml

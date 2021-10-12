@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ParsingFile
+{
+    + static void main( String[] args )
+    + static ArrayList<String[]> parseFile (File input)
+    + static void printList(ArrayList<String[]> list)
+}
+
+@enduml

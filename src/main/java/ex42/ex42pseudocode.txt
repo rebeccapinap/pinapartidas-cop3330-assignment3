@@ -1,0 +1,19 @@
+Class ParsingFile
+
+    Main method
+        Make Arraylist to store list of information
+        Fill Arraylist by calling function that scans input file
+        Call function to print the list
+
+    Parsing File method
+         Make Arraylist to store file content
+         While file has a next line
+            Make temp string holder with line content
+            Split temp string by comma and store in new string variable
+            Add line of the edited string into the Arraylist
+         Return Arraylist
+
+    Print List method
+        Print table set up
+        For length of arraylist
+             Print each line with information

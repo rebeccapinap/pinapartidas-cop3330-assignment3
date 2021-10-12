@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class WordFinder
+{
+    + static void main( String[] args )
+    + static String scanFile (File input)
+    + static String replace (String inputStr)
+    + static void writeFile (String outputStr)
+}
+
+@enduml

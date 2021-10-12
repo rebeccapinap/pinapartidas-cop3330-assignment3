@@ -1,0 +1,25 @@
+Class WordFinder
+
+    Main method
+        Make file input
+        Call function to fill string with file content
+        Call function to fill new string with edited old string
+        Call function to write string to file
+
+    Scan File method
+        Make Arraylist to store file content
+        While file has a next line
+            Add line of the file into the Arraylist
+        For size of list
+            Adds each section of list to string with new line after
+        Return String
+
+    Replace method
+        Create new string and replaces every instance of utilize in string with use, using passed in string
+        Return new String
+
+    Write File method
+        Prompt user for file name
+        Create string with file directory with inputted file name
+        Create file
+        Print string passed in to file

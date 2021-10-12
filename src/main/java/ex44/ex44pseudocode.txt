@@ -1,0 +1,49 @@
+Class ProductSearch
+
+    Main method
+        Make file input
+        Make list of products
+        Call method that fills product list with file content
+        Call method that searches for product, finds it, and outputs its information
+        Prints output of product information
+
+    Scanning Products method
+        Create JSON Element to read JSON file
+        Create JSON object out of JSON element
+        Create JSON array from JSON object
+        For each element of the array
+            Make JSON object
+            Fill name, price, and quantity with object information
+            Create new object of class product
+            Adds object to list of objects
+        Returns list of objects
+
+    Searching method
+        While flag isProduct is equal to 0
+            Ask for user input
+            Call function to check if product name exists in objects
+            If name is not in objects
+                Output error statement
+            Else if name is in objects
+                For each element in list of products
+                    If product name is equal to one of the objects names
+                        Fill name, price, and quantity with object information
+                Assign output string with object information
+
+    Checks If Product method
+        Check if product name exists in any object
+        For each element in list of products
+            If product name is equal to one of the objects names
+                Return 1
+        Returns 0 if input product name does not exist in objects
+
+Class products
+
+    private String name
+    private double price
+    private int quantity
+
+    Setter that takes in name, price, and quantity and assigns it to object
+
+    Getters for name, price, and quantity
+

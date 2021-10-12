@@ -1,0 +1,35 @@
+Class WordFrequencyFinder
+
+    Main method
+        Make Arraylist to store list of names
+        Make file input
+        Call function to fill Arraylist with file content
+        Call function that counts frequencies of words and prints list
+
+    Parsing File method
+         Make Arraylist to store file content
+         While file has a next line
+            Add line of the file into the Arraylist
+         Return Arraylist
+
+    Counting Frequency method
+        Create two maps, one for filling in words and one for a sorted map
+        Make list passed in into a string array
+        For the length of the array
+            If word is in hashmap
+                if it is add to frequency
+                if it isn't add it to hashmap
+        Call function to sort hashmap by frequency
+        For every entry of hashmap
+            Print word
+            For frequency of word
+                Print *
+
+    Sort By Frequency method
+        Make a list of content passed in by hashmap
+        Use method to sort the list
+        Make a new hashmap for sorted list
+        For every list entry
+            add key and value into the new hashmap
+        Return new hashmap
+

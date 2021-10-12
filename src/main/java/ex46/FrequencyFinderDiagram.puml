@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class WordFrequencyFinder
+{
+    + static void main( String[] args )
+    + static ArrayList<String> parseFile (File input)
+    + static void countFreq(ArrayList<String> list)
+    + static HashMap<String, Integer> sortByFrequency(Map<String, Integer> wordFreq)
+}
+
+@enduml

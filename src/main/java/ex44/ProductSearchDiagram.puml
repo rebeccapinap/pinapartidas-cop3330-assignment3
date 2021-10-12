@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class ProductSearch
+{
+    + static void main( String[] args )
+    + static List<products> scanProducts (File input)
+    + static String search (List<products> productsList)
+    + static int isProduct(String productName, List<products> productsList)
+}
+
+class product
+{
+    - String name
+    - double price
+    - int quantity
+}
+
+ProductSearch <|--- product
+
+@enduml
