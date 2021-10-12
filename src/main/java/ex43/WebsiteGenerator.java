@@ -92,6 +92,7 @@ public class WebsiteGenerator {
         print.println("\t<title>" + siteName + "</title>");
         print.println("\t<meta name = \"author\" content = \"" + author + "\">");
         print.println("</head>");
+        print.println("</html>");
 
         print.close();
     }
